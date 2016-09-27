@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Survey App</string>
+
+    <string name="question_text">Are the Vikings headed to the superbowl?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="results_button">Survey Results</string>
+
+    <!--For configure_fragment_setquestion.xml -->
+    <string name="enter_question_text">Enter survey question:</string>
+    <string name="enter_buttonTextOne">Enter first option:</string>
+    <string name="enter_buttonTextTwo">Enter second option:</string>
+
+    <string name="new_question_editText"></string>
+    <string name="enter_ButtonEditTextOne"></string>
+    <string name="enter_ButtonEditTextTwo"></string>
+
+</resources>

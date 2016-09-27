@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context="com.example.ag5300cm.surveyapp.SurveyAppActivation"
+              >
+
+    <TextView
+        android:id="@+id/enter_question_text"
+        android:text="@string/enter_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/new_question_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_question_text"/>
+
+    <TextView
+        android:id="@+id/enter_buttonTextOne"
+        android:text="@string/enter_buttonTextOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_question_editText"/>
+
+    <EditText
+        android:id="@+id/enter_ButtonEditTextOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_buttonTextOne"/>
+
+    <TextView
+        android:id="@+id/enter_buttonTextTwo"
+        android:text="@string/enter_buttonTextTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_ButtonEditTextOne"/>
+
+    <EditText
+        android:id="@+id/enter_ButtonEditTextTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_buttonTextTwo"/>
+
+    <Button
+        android:id="@+id/setquestionDone_button"
+        android:text="Ready_Survey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_ButtonEditTextTwo"/>
+
+</RelativeLayout>
